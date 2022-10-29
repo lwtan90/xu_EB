@@ -2,7 +2,7 @@
 Wilson wrote it on 10/29/2022  
   
 ### List of scripts used in the following orders:  
-1. scRNAseq.sh  
+#### 1. scRNAseq.sh  
 Purpose: To run cellranger analysis on the FASTQ files. Only for one run.
 How to run:  
 ```
@@ -22,7 +22,7 @@ A folder with complete cellranger run.
 Note:
 Possible to rerun in case the analysis was cutoff. cellranger is able to continue the run from where it stops.  
 
-2. demuxlet.sh  
+#### 2. demuxlet.sh  
 Purpose: To run demultiplexing of cells to donor origin using genotype.  
 How to run:
 ```
