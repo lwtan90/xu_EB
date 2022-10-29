@@ -49,6 +49,26 @@ other text files (for references)
 
 Note:  
 I don't find reducing the variants have significant impact on speed. You can try with exome / just epressed genes. However, reducing the number of individuals in the vcf files help to reduce running speed.  
+  
+  
+#### 3. seurat.R  
+Purpose: Generate all kinds of single-cell analysis for the EB datasets using R seurat.  
+How to run:  
+```
+Rscript seurat.R
+! Please do this interactively especially to determine the QC cut-off! 
+! Run in each folder only !
+
+Input: outs/filtered_feature_bc_matrix (sometimes I use raw, but it shouldnt matter because I will filter aagain)  
+
+Within the seurat script:  
+Look within the script   (bin/seurat.R)
+
+Output:  
+heart.rds  (use for integration)  
+
+```  
+  
 
 
 
